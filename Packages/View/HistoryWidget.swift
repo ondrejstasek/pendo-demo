@@ -76,6 +76,7 @@ public struct HistoryWidget {
                     }
                 }
             }
+            .accessibilityIdentifier("row-\(imageName)-\(name)")
         }
 
     }

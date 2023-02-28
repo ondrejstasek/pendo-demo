@@ -38,7 +38,8 @@ extension ViewController: UICollectionViewDataSource {
             content = .list(
                 [
                     .workOrder(name: "AAA", id: 1),
-                    .asset(name: "BBB", id: 2)
+                    .asset(name: "BBB", id: 2),
+                    .workOrder(name: "CCC", id: 3),
                 ]
             )
         default:

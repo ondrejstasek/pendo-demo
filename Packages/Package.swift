@@ -17,7 +17,7 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/pendo-io/pendo-mobile-ios", branch: "2.20.0.6885-swiftui"),
+        .package(url: "https://github.com/pendo-io/pendo-mobile-ios", branch: "2.20.0.6901-swiftui"),
     ],
     targets: [
         .target(
